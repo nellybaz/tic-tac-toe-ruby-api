@@ -1,8 +1,8 @@
 GIT
   remote: https://github.com/nellybaz/tic-tac-toe
-  revision: 14b5804a5a1dad0ecd9dab8bb560b17a6f5c0814
+  revision: beec5149903edbe2bb1352180f0869fb3a86ac7d
   specs:
-    tic-tac-toe (0.1.3)
+    tic-tac-toe (0.1.4)
 
 GEM
   remote: https://rubygems.org/
