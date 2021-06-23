@@ -22,18 +22,21 @@ class GameController < ApplicationController
   # api/move
 
 
-  validate a human move and return state of the game
+  # validate a human move and return state of the game
 
-  make a computer move and return state of the game
+  # make a computer move and return state of the game
   
-  send a move and current board state
+  # send a move and current board state
 
   def move
-    # TicTacToe.move(game_state, computer_player_type, player2_type, move)
     board_state = params[:state]
-    computer_player_type = params[:type]
-    move = 0
-    move = computer_player_type == 'computer' ? TicTacToe.computer_move(board_state, 1, 'X') : TicTacToe.smart_computer_move(board_state, 1, 'X')
-    render json: { "move":move, "message":"successful"}
+    type = params[:type]
+    # move = params[:move]
+    symbol = params[:symbol]
+    response  = TicTacToe.move(type, board_state, symbol)
+
+    # move = 0
+    # move = type == 'computer' ? TicTacToe.computer_move(board_state, 1, 'X') : TicTacToe.smart_computer_move(board_state, 1, 'X')
+    render json: response
   end
 end

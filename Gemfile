@@ -3,6 +3,9 @@ git_source(:github) { |repo| "https://github.com/#{repo}.git" }
 
 ruby '3.0.1'
 
+
+gem 'rack-cors'
+
 gem 'tic-tac-toe', path: '/Users/nbassey/Development/owc/tic-tac-toe'
 
 # Bundle edge Rails instead: gem 'rails', github: 'rails/rails', branch: 'main'
