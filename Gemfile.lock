@@ -1,7 +1,8 @@
-PATH
-  remote: /Users/nbassey/Development/owc/tic-tac-toe
+GIT
+  remote: https://github.com/nellybaz/tic-tac-toe
+  revision: d7c315caea7a771a058a1b29bf0ecea15871798a
   specs:
-    tic-tac-toe (0.1.1)
+    tic-tac-toe (0.1.2)
 
 GEM
   remote: https://rubygems.org/
@@ -109,6 +110,8 @@ GEM
     nokogiri (1.11.7)
       mini_portile2 (~> 2.5.0)
       racc (~> 1.4)
+    nokogiri (1.11.7-x86_64-linux)
+      racc (~> 1.4)
     puma (5.3.2)
       nio4r (~> 2.0)
     racc (1.5.2)
@@ -183,6 +186,7 @@ GEM
 
 PLATFORMS
   ruby
+  x86_64-linux
 
 DEPENDENCIES
   bootsnap (>= 1.4.4)
