@@ -1,8 +1,8 @@
 GIT
   remote: https://github.com/nellybaz/tic-tac-toe
-  revision: d7c315caea7a771a058a1b29bf0ecea15871798a
+  revision: 14b5804a5a1dad0ecd9dab8bb560b17a6f5c0814
   specs:
-    tic-tac-toe (0.1.2)
+    tic-tac-toe (0.1.3)
 
 GEM
   remote: https://rubygems.org/
@@ -87,7 +87,7 @@ GEM
       railties (>= 5.0.0)
     faker (2.18.0)
       i18n (>= 1.6, < 2)
-    ffi (1.15.1)
+    ffi (1.15.3)
     globalid (0.4.2)
       activesupport (>= 4.2.0)
     i18n (1.8.10)
