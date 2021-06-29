@@ -1,8 +1,8 @@
 GIT
   remote: https://github.com/nellybaz/tic-tac-toe
-  revision: 8b774ebc1e12194cf3d7f49dee337b471af41981
+  revision: 529c565c58bd1d9325d8c83a54a5ed3cfb9718b7
   specs:
-    tic-tac-toe (0.1.6)
+    tic-tac-toe (0.1.7)
 
 GEM
   remote: https://rubygems.org/
@@ -201,7 +201,7 @@ DEPENDENCIES
   rails (~> 6.1.3, >= 6.1.3.2)
   rspec-rails (~> 3.6)
   spring
-  tic-tac-toe (~> 0.1.6)!
+  tic-tac-toe (~> 0.1.7)!
   tzinfo-data
 
 RUBY VERSION

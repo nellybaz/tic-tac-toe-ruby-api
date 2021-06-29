@@ -6,7 +6,7 @@ ruby '3.0.1'
 
 gem 'rack-cors'
 
-gem 'tic-tac-toe', '~> 0.1.6', git: 'https://github.com/nellybaz/tic-tac-toe'
+gem 'tic-tac-toe', '~> 0.1.7', git: 'https://github.com/nellybaz/tic-tac-toe'
 
 # Bundle edge Rails instead: gem 'rails', github: 'rails/rails', branch: 'main'
 gem 'rails', '~> 6.1.3', '>= 6.1.3.2'
